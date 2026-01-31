@@ -142,9 +142,14 @@ Azure Monitor의 기능별 실습입니다. (지속적으로 추가 예정)
 - "수집 표준" 만들기: DCR 템플릿화
 - Windows Event / Syslog / IIS logs 등 연결
 
-### 🧩 Visualization
-- Azure Monitor Workbooks (운영 대시보드)
-- (선택) Azure Managed Grafana + Managed Prometheus
+### 🧩 [Visualization](/lectures/visualization-workbooks-grafana/visualization.md)
+- [모니터링이 어려운 이유](/lectures/visualization-workbooks-grafana/challenges-with-application-monitoring.md)
+- [Azure에서 제공하는 시각화 옵션 4가지](/lectures/visualization-workbooks-grafana/options.md)
+    - [Azure Dashboard](/lectures/visualization-workbooks-grafana/dashboard.md)
+    - [Azure Workbooks](/lectures/visualization-workbooks-grafana/workbooks.md)
+    - [Azure Managed Grafana](/lectures/visualization-workbooks-grafana/azure-managed-grafana.md)
+    - [Power BI](/lectures/visualization-workbooks-grafana/power-bi.md)
+- [내 상황에서는 '어떤 시각화 옵션'을 선택하면 되는가?](/lectures/visualization-workbooks-grafana/when-to-use.md)
 
 ### 🌐 Network Monitoring
 - Network Watcher / Connection Monitor
@@ -157,10 +162,9 @@ Azure Monitor의 기능별 실습입니다. (지속적으로 추가 예정)
 ---
 
 ## 🚀 시작하기 (Getting Started)
-
-1) 리포지토리 클론
+리포지토리 클론
 ```bash
-git clone https://github.com/jyseong/azure-monitor-camp.git
+git clone https://github.com/jiyongseong/azure-monitor-camp.git
 ```
 
 ## 🤝 기여 방법 (Contributing)
@@ -175,4 +179,4 @@ git clone https://github.com/jyseong/azure-monitor-camp.git
 이 프로젝트는 누구나 자유롭게 공유하고 활용할 수 있습니다.
 
 ## ✨ Maintainer
-*   **[Ji Yong Seong (MSFT)](https://github.com/jiyongseong)** 
+* **[Ji Yong Seong (MSFT)](https://github.com/jiyongseong)** 
